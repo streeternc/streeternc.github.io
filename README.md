@@ -1,2 +1,2 @@
 # streeternc.github.io
-My personal pages
+My personal pages for Wake Tech course.
