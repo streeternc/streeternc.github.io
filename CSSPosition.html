@@ -1,0 +1,61 @@
+<doctype HTML>
+    <html lang="en">
+        <head>
+            <title>CSS Position Example</title>
+            <meta name="viewport" content="width=device-width initial-scale=1.0">
+            <meta charset="utf-8">
+            <style>header, nav, article, footer {
+                    background-color: beige;
+                    min-height: 145 px;
+                    margin: 10px;
+                    font-family:Arial, Helvetica, sans-serif;
+            }
+            #one, #two, #three {
+                color: aliceblue;
+                display: inline-block;
+                height: 300px;
+                width: 300px;
+            }
+            #one{
+                background-color: antiquewhite;
+            }    
+            #two{
+                background-color: blueviolet;
+            }  
+            #three{
+                background-color: coral;
+            }   
+            article{
+                 position: relative;   
+            }
+            ul{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                list-style-type: none;
+            }       
+            </style>
+        </head>
+        <body>
+            <header>
+                <nav>
+                    <ul>
+                        <li>Animals</li>
+                        <li>Reptiles</li>
+                        <li>Insects</li>
+                    </ul>
+                </nav>
+            </header>
+            <article>
+                <section id="one">
+                    <h1>One</h1>
+                </section>
+                <section id="two">
+                    <h1>Two</h1>
+                </section>
+                <section id="three">
+                    <h1>Three</h1>
+                </section>
+            </article>
+        </body>
+    </html>
